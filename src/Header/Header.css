@@ -1,0 +1,19 @@
+.navlink-container{
+    text-decoration: none;
+    
+    }
+    
+    .nav-link {
+    
+        color: black !important;
+        font-weight: bold;
+    }
+    
+    .nav-link:hover {
+    
+        color:  #FA255E !important;
+    }
+    
+    .nav-container{
+        position: fixed;
+    }
