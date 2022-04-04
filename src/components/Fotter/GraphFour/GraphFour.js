@@ -88,7 +88,8 @@ const GraphFour = () => {
         <div>
 
 
-
+            <h2 className='text-white fw-bold mt-4'>Scatter Diagram</h2>
+            <hr className='text-white' />
 
             <ScatterChart width={730} height={250}
                 margin={{ top: 20, right: 20, bottom: 10, left: 10 }}>

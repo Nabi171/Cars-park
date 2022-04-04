@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import './Header.css'
 
@@ -9,15 +9,26 @@ const Header = () => {
 
             <Navbar bg="light" expand="lg"  >
                 <Container>
-                    <Navbar.Brand href="#home">World All Classico Countries</Navbar.Brand>
+                    <Navbar.Brand href="#home" className='fw-bold'>AL-NUR CAR PARK</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mx-auto">
-                            <Link className='nav-link' to="/home">HOME</Link>
-                            <Link className='nav-link' to="/reviews">REVIEWS</Link>
-                            <Link className='nav-link' to="/dassboard">DASSBOARD</Link>
-                            <Link className='nav-link' to="/blogs">BLOGS</Link>
-                            <Link className='nav-link' to="/about">ABOUT</Link>
+                            <NavLink className={({ isActive }) => isActive ? "active-link" : "link"}
+
+                                to="/home">HOME</NavLink >
+                            <NavLink
+                                className={({ isActive }) => isActive ? "active-link" : "link"}
+
+                                to='/reviewsection'>REVIEWS</NavLink >
+                            <NavLink
+                                className={({ isActive }) => isActive ? "active-link" : "link"}
+                                to="/dassboard">DASSBOARD</NavLink >
+                            <NavLink
+                                className={({ isActive }) => isActive ? "active-link" : "link"}
+                                to="/blogs">BLOGS</NavLink >
+                            <NavLink
+                                className={({ isActive }) => isActive ? "active-link" : "link"}
+                                to="/about">ABOUT</NavLink >
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

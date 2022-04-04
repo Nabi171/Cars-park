@@ -44,7 +44,8 @@ const GraphTwo = () => {
     ]
     return (
         <div>
-            <h2>Area Chart</h2>
+            <h2 className='text-white fw-bold mt-4'>Bar Chart</h2>
+            <hr className='text-white' />
             <BarChart width={730} height={250} data={data}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="month" />

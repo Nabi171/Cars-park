@@ -9,8 +9,7 @@ import './Dassboard.css'
 const Dassboard = () => {
     return (
         <div className='dassboard-container'>
-            <h1>Dassboard</h1>
-            <Graphone></Graphone>
+                        <Graphone></Graphone>
             <GraphTwo></GraphTwo>
             <GraphThree></GraphThree>
             <GraphFour></GraphFour>

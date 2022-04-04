@@ -83,7 +83,8 @@ const GraphThree = () => {
 
     return (
         <div>
-            <h2>PieChart Chart</h2>
+            <h2 className='text-white fw-bold mt-4'>Pie Chart</h2>
+            <hr className='text-white' />
             <PieChart width={730} height={250}>
                 <Pie data={data01} dataKey="investment" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
                 <Pie data={data02} dataKey="revenue" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
