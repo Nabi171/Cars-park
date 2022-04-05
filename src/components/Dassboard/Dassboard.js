@@ -6,10 +6,11 @@ import GraphFour from '../Fotter/GraphFour/GraphFour';
 import './Dassboard.css'
 
 
+
 const Dassboard = () => {
     return (
         <div className='dassboard-container'>
-                        <Graphone></Graphone>
+            <Graphone></Graphone>
             <GraphTwo></GraphTwo>
             <GraphThree></GraphThree>
             <GraphFour></GraphFour>

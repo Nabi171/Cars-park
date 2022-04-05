@@ -1,9 +1,14 @@
 import React from 'react';
+import FotterLast from '../FotterLast/FotterLast';
+import MoreAbout from '../MoreAbout/MoreAbout';
 
 const About = () => {
     return (
         <div>
-            <h1>About </h1>
+            
+            <MoreAbout></MoreAbout>
+            <FotterLast></FotterLast>
+
         </div>
     );
 };

@@ -3,6 +3,8 @@ import React from 'react';
 import Banner from '../Banner/Banner';
 import Reviews from '../Reviews/Reviews';
 import Headline from '../CustomerHeadline/Headline';
+import FotterLast from '../FotterLast/FotterLast';
+
 
 const Home = () => {
     return (
@@ -10,6 +12,7 @@ const Home = () => {
             <Banner></Banner>
             <Headline></Headline>
             <Reviews></Reviews>
+            <FotterLast></FotterLast>
         </div>
     );
 };

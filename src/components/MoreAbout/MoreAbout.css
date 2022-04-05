@@ -1,0 +1,14 @@
+.about-img {
+
+    background-image: url(../MoreAbout/bgimg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+}
+
+.about-overlay {
+
+    background: rgba(0, 0, 0, 0.699);
+    height: 100%;
+}
