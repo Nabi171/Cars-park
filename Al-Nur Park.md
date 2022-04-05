@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://harmonious-lolly-1fdae9.netlify.app/).
 
-## Process for made this site
+## Process for made this demo
 
 *According to the assignments requriment i used here react botstrap,react router dom,html5,css3
 
