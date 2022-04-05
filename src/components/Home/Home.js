@@ -13,7 +13,8 @@ const Home = () => {
             <Headline></Headline>
             <Reviews></Reviews>
             <FotterLast></FotterLast>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus obcaecati itaque officia eaque ex modi dolor neque, possimus odit amet beatae non animi facere incidunt? Aut eius inventore rerum at.</p>
+
+
         </div>
     );
 };
