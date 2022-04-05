@@ -13,7 +13,7 @@ Open [http://localhost:3000](http://https://github.com/programming-hero-web-cour
 
 ### Deployment Netlify site
 
-Check the link here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://harmonious-lolly-1fdae9.netlify.app/)
+Check the link here: (https://harmonious-lolly-1fdae9.netlify.app/)
 
 ### `AL NUR PARK SITES` WAYS TO MODIFY
 *Made main home page,whore many components connected with others
