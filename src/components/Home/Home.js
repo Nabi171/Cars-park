@@ -13,8 +13,6 @@ const Home = () => {
             <Headline></Headline>
             <Reviews></Reviews>
             <FotterLast></FotterLast>
-
-
         </div>
     );
 };
